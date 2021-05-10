@@ -2,10 +2,12 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  background-color:rgb(123, 186, 189);
 }
 .Container {
   display: grid;
   grid-gap: 0.2rem;
+  width: 100%;
   
   grid-template-columns: 5rem repeat(4, 1fr); 
   grid-template-rows: repeat(28, 1fr);
@@ -21,9 +23,10 @@ table {
 
 textarea{
   background: transparent;
+  background-color: cornsilk;
   border: none;
   resize: none;
-  color: #000000;
+  color: #0d010f;
   border-left: 1px solid black;
   padding: 10px;
 }
@@ -73,11 +76,11 @@ textarea{
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  border-left: 1px solid rgb(32, 24, 61);
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
-  color: white;
+  background-color: #06495a;
+  color: rgb(34, 29, 65);
 }
 
 .saveBtn i:hover {
